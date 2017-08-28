@@ -16,10 +16,6 @@ import com.xiaobo.cn.shiro.service.SysMenuService;
 /**
  * 系统菜单
  *
- * @author ZhouChenglin
- * @email yczclcn@163.com
- * @url www.chenlintech.com
- * @date 2017年8月10日 上午10:36:31
  */
 @Service("sysMenuService")
 public class SysMenuServiceImpl implements SysMenuService {
