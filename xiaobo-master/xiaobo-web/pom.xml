@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>master</groupId>
+    <artifactId>xiaobo-master</artifactId>
+    <version>${xiaobo-version}</version>
+  </parent>
+  <artifactId>xiaobo-web</artifactId>
+  <packaging>war</packaging>
+  <name>xiaobo-web Maven Webapp</name>
+  <description>管理后台</description>
+  
+  <dependencies>
+    
+    <dependency>
+      <groupId>master</groupId>
+      <artifactId>xiaobo-common</artifactId>
+      <version>${xiaobo-version}</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>master</groupId>
+      <artifactId>xiaobo-base</artifactId>
+      <version>${xiaobo-version}</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>master</groupId>
+      <artifactId>xiaobo-shiro</artifactId>
+      <version>${xiaobo-version}</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>master</groupId>
+      <artifactId>xiaobo-orm</artifactId>
+      <version>${xiaobo-version}</version>
+    </dependency>
+    
+  </dependencies>
+  
+  <build>
+    <finalName>xiaobo-security</finalName>
+  </build>
+</project>
